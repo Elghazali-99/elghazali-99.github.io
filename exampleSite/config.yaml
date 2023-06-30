@@ -24,16 +24,16 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -103,8 +103,8 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Elghazali's Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -123,7 +123,7 @@ params:
     content: "Computer science engineer with an obsession to every chip that makes a computer. Creative and passionate about cybersecurity, networking, and hardware, with diverse skills including pentesting, problem solving and troubleshooting, enthusiastic and curious about new technologies."
     image: /images/hero.png
     bottomImage:
-      enable: true
+      enable: false
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -224,7 +224,7 @@ params:
           - Algorithms and Data Structures, Operating Systems, Computer Architecture, Object-oriented programming, Assembly.
           - Electricity, Electronics.
 
-          Extracurricular Activities
+          Extracurricular Activities:
             - Graphic design workshops.
       #   featuredLink:
       #     enable: true
@@ -278,7 +278,7 @@ params:
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: IPS / IDS System using RaspberryPi
-        content: Log, monitor and Block malicious traffic by Intrusion Detection System and Intrusion Prevention System, implemented using RasberryPi to secure and reduce the number of security incidents.
+        content: Log, monitor and Block malicious traffic by Intrusion Detection System and Intrusion Prevention System, implemented on a RasberryPi to secure and reduce the number of security incidents.
         image: /images/projects/raspberry.png
         # featured:
         #   name: Demo
@@ -306,7 +306,7 @@ params:
             url: https://github.com/TheDhm/EasyTP
 
       - title: VPN/MPLS platform (MP-BGP)
-        content: Connect 6 sites of a company with a network operator who has an IP backbone routed in MPLS while keeping connectivity to its remote sites by keeping its network confidential.
+        content: Connect 6 sites of a company with a network operator, that has an IP backbone routed in MPLS. In order to insure connectivity to its remote sites and keeping its network confidential.
         image: /images/projects/mpls.png
         # featured:
         #   name: Demo V2
@@ -335,8 +335,7 @@ params:
         #   link: https://hugo-profile-2.netlify.app
         badges:
           - "Telegram‑bot API"
-          - "VPN"
-          - "NAT"
+          - "Python"
 
       - title: StudentHub
         content: Developed an app that contribute to the degitization of the education sector of the algerian university.
