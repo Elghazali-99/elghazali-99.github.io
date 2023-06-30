@@ -145,7 +145,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/hero.png"
     content: |-
       I am a computer science engineer with a passion for cybersecurity, network security, digital forensics incident response. As an active CTF player, I thrive in CTF competitions with [OctaC0re team](https://ctftime.org/team/141485), continuously sharpening my skills in capturing flags and solving intricate challenges. 
 
@@ -362,12 +362,12 @@ params:
   #   #   messageCaption: "Enter your message here"
 
   footer:
-    # recentPosts:
-    #   path: "blogs"
-    #   count: 3
-    #   title: Recent Posts
-    #   enable: true
-    #   disableFeaturedImage: false
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/Elghazali-99
       linkedin: https://www.linkedin.com/in/gzli/
