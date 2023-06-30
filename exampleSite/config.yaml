@@ -171,7 +171,7 @@ params:
       - job: "Internship - Graduation Project"
         company: "Montréal University"
         companyUrl: "https://www.umontreal.ca/en/"
-        date: "October 2022 - present"
+        date: "October 2022 - July 2023"
         # featuredLink:
         #   enable: true
         #   name: "View the project"
