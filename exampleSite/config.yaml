@@ -261,7 +261,7 @@ params:
     items:
       - title: Cognicy
         content: A simulated social media platform for privacy awareness.
-        image: /images/projects/cognicy.png
+        image: /images/projects/Cognicy.png
         # featured:
         #   name: Demo
         #   link: https://hugo-profile.netlify.app
@@ -293,7 +293,7 @@ params:
 
       - title: EasyTP
         content: A project that aims to modernize students lab applications by dockerizing them and implementing a custom onsite Kubernetes cluster architecture to deploy and manage student access and activity.
-        image: /images/projects/easytp.png
+        image: /images/projects/Easytp.png
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
@@ -318,7 +318,7 @@ params:
         
       - title: LAN / WAN network between two schools
         content: Provide assistance to two major engineering schools and two operators (a WAN operator and an ISP) for the implementation of a LAN/WAN network, based on VLAN, ROUTING, NAT, VPN.
-        image: /images/projects/vpn.png
+        image: /images/projects/wan.webp
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
