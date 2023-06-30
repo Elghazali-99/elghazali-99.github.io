@@ -102,9 +102,9 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Elghazali's Portfolio" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    # disableSearch: false
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -126,7 +126,7 @@ params:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
@@ -135,11 +135,11 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Elghazali-99
-        # - icon: fab fa-twitter
-        #   url: https://example.com
-      customIcons:
-        - icon: /linkedin.png
-          url: "https://www.linkedin.com/in/gzli/"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/gzli/
+      # customIcons:
+      #   - icon: /linkedin.png
+      #     url: "https://www.linkedin.com/in/gzli/"
 
   # About
   about:
@@ -156,9 +156,11 @@ params:
       items:
         - "Autopsy"
         - "Ghidra"
+        - "Wireshark"
         - "Burp suite"
         - "Nessus"
         - "Docker"
+        - "kubernetes"
         - "Python"
 
   # Experience
@@ -292,7 +294,7 @@ params:
         #     url: https://github.com/gurusabarish/converter
 
       - title: EasyTP
-        content: A project that aims to modernize students lab applications by dockerizing them and implementing a custom onsite Kubernetes cluster architecture to deploy and manage student access and activity.
+        content: Deployment and administration of a Kubernetes cluster for TP management at ESI, by containerization and running the most used tools & softwares at the school inside a kubernetes cluster.
         image: /images/projects/Easytp.png
         # featured:
         #   name: Demo V2
