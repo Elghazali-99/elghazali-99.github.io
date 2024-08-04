@@ -144,7 +144,7 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "$whoami"
     image: "/images/hero.png"
     content: |-
       I am a computer science engineer with a passion for cybersecurity, network security, digital forensics incident response. As an active CTF player, I thrive in CTF competitions with [OctaC0re team](https://ctftime.org/team/141485), continuously sharpening my skills in capturing flags and solving intricate challenges. 
@@ -152,7 +152,7 @@ params:
       With a diverse skillset encompassing pentesting, problem solving, and troubleshooting, I am driven to secure digital landscapes against threats. Fuelled by enthusiasm and an insatiable curiosity, I remain at the forefront of emerging technologies, constantly seeking innovative solutions to safeguard and advance the digital realm.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "$ list skills | grep -v 'tools'"
       items:
         - "Autopsy"
         - "Ghidra"
@@ -166,7 +166,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+     title: "$cat experience"
     items:
       - job: "Internship - Graduation Project"
         company: "Montréal University"
@@ -196,7 +196,7 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+     title: "$cat education"
     index: false
     items:
       - title: "Computer science engineer"
@@ -244,7 +244,7 @@ params:
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+     title: "$cat achievements | head -n 4"
     items:
       - title: CSAW’22 FINALS
         content: Qualified and ranked 7th in CSAW CTF Finals, the most comprehensive cybersecurity event.
@@ -259,7 +259,7 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+     title: "$cat projects"
     items:
       - title: Cognicy
         content: A simulated social media platform for privacy awareness.
@@ -375,7 +375,7 @@ params:
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
