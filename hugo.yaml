@@ -299,7 +299,7 @@ params:
     items:
       - title: Cognicy
         content: A simulated social media platform for privacy awareness.
-        image: /images/projects/Cognicy.png
+        image: /images/projects/cognicy.png
         # featured:
         #   name: Demo
         #   link: https://hugo-profile.netlify.app
@@ -331,7 +331,7 @@ params:
 
       - title: EasyTP
         content: Deployment and administration of a Kubernetes cluster for TP management at ESI, by containerization and running the most used tools & softwares at the school inside a kubernetes cluster.
-        image: /images/projects/Easytp.png
+        image: /images/projects/easytp.png
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
