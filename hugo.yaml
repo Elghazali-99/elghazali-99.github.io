@@ -120,7 +120,7 @@ params:
     intro: "Hi, I am"
     title: "Mohamed Elghazali Kimeche."
     subtitle: "Cyber Security Enthusiast"
-    content: "Cybersecurity engineer with an obsession to every chip that makes a computer. Creative and passionate about Cybersecurity, Cloud security, and Network security, with diverse skills including Digital Forensics & Incident Response, Threat Hunting, and problem solving, enthusiastic and curious about new technologies."
+    content: "Cybersecurity engineer with an obsession to every chip that makes a computer. Creative and passionate about Cybersecurity, with diverse skills including Digital Forensics & Incident Response, Threat Hunting, and problem solving, enthusiastic and curious about new technologies."
     image: /images/hero.png
     bottomImage:
       enable: true
@@ -147,9 +147,11 @@ params:
     title: "$whoami"
     image: "/images/hero.png"
     content: |-
-      Computer Science & Cybersecurity Engineer. Specialized in Digital Forensics & Incident Response, Cloud and Network Security. As an active CTF player, I thrive in CTF competitions with [OctaC0re team](https://ctftime.org/team/141485), continuously sharpening my skills in capturing flags and solving intricate challenges. 
+      Computer Science & Cybersecurity Engineer. Specialized in Digital Forensics & Incident Response, Threat Hunting, and Security Operations. As an active CTF player, I thrive in CTF competitions with [OctaC0re team](https://ctftime.org/team/141485), continuously sharpening my skills in capturing flags and solving intricate challenges. 
 
-      With a diverse skillset encompassing Threat Hunting, Pentesting, and Problem solving, I am driven to secure digital landscapes against threats. Fuelled by enthusiasm and an insatiable curiosity, I remain at the forefront of emerging technologies, constantly seeking innovative solutions to safeguard and advance the digital realm.
+      My experience in Digital Forensics, Application/Network/System Security, and SOC environments has equipped me with the skills needed to effectively monitor, detect, and respond to cyber threats.
+
+
     skills:
       enable: true
       title: "$ list skills | grep -v 'tools'"
