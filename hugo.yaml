@@ -168,7 +168,20 @@ params:
     enable: true
     #  title: "'$cat experience"
     items:
-      - job: "Internship - Graduation Project"
+      - job: "SOAR Engineer"
+        company: "THALES"
+        companyUrl: "https://www.thalesgroup.com/"
+        date: "April 2024 - September 2024"
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        content: |-
+          - Implemented an open-source SIEM / SOAR architecture.
+          - Automated remediation and response through playbooks.
+          - Conducted assessments through the simulation of real-scenario attacks.
+
+      - job: "Privacy-Preserving Research Intern"
         company: "Montréal University"
         companyUrl: "https://www.umontreal.ca/en/"
         date: "October 2022 - July 2023"
@@ -178,7 +191,7 @@ params:
         #   url: "https://example.com"
         content: "Privacy-Preserving by studying user behavior on a simulated social media platform."
 
-      - job: "Phishing Campaign Simulation"
+      - job: "Security Consultant Intern"
         company: "Realistic Security"
         companyUrl: "https://www.realistic-security.com/"
         date: "September 2021 - October 2021"
